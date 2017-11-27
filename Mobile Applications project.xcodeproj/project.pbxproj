@@ -15,6 +15,7 @@
 		2F309CBB1FC45F7300290F66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F309CBA1FC45F7300290F66 /* main.m */; };
 		2F309CC51FC45F7300290F66 /* Mobile_Applications_projectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F309CC41FC45F7300290F66 /* Mobile_Applications_projectTests.m */; };
 		2F309CD01FC45F7300290F66 /* Mobile_Applications_projectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F309CCF1FC45F7300290F66 /* Mobile_Applications_projectUITests.m */; };
+		2F4100DB1FC6D17D00DB7463 /* Tab Icons in Resources */ = {isa = PBXBuildFile; fileRef = 2F4100DA1FC6D17D00DB7463 /* Tab Icons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2F309CCB1FC45F7300290F66 /* Mobile Applications projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile Applications projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F309CCF1FC45F7300290F66 /* Mobile_Applications_projectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mobile_Applications_projectUITests.m; sourceTree = "<group>"; };
 		2F309CD11FC45F7300290F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4100DA1FC6D17D00DB7463 /* Tab Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Tab Icons"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				2F309CAF1FC45F7300290F66 /* ViewController.m */,
 				2F309CB11FC45F7300290F66 /* Main.storyboard */,
 				2F309CB41FC45F7300290F66 /* Assets.xcassets */,
+				2F4100DA1FC6D17D00DB7463 /* Tab Icons */,
 				2F309CB61FC45F7300290F66 /* LaunchScreen.storyboard */,
 				2F309CB91FC45F7300290F66 /* Info.plist */,
 				2F309CBA1FC45F7300290F66 /* main.m */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F4100DB1FC6D17D00DB7463 /* Tab Icons in Resources */,
 				2F309CB81FC45F7300290F66 /* LaunchScreen.storyboard in Resources */,
 				2F309CB51FC45F7300290F66 /* Assets.xcassets in Resources */,
 				2F309CB31FC45F7300290F66 /* Main.storyboard in Resources */,
