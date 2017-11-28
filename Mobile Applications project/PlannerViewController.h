@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 extern NSArray * createdAt;
+extern NSArray * pDate;
+
 
 @interface PlannerViewController : UIViewController
 

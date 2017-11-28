@@ -19,6 +19,9 @@ int thisYear;//2017
 int weekday;//1-7 When does 1st day of month start
 int thisMonth;//1-12
 
+NSArray * createdAt;
+NSArray * pDate;
+
 @implementation PlannerViewController
 @synthesize monthly;
 
@@ -142,13 +145,14 @@ int thisMonth;//1-12
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     NSLog(@"%@",[[formatter monthSymbols] objectAtIndex:(thisMonth - 1)]);
     monthly.text=[[formatter monthSymbols] objectAtIndex:(thisMonth - 1)];
+
     
     //use for loop to display each day
     
     for(int startD=1; startD<=numberofDays;startD++){
         UIButton *addProject = [UIButton buttonWithType: UIButtonTypeRoundedRect];
         
-        int xCoord=(newWeekDay*40)+15;
+        int xCoord=(newWeekDay*40)+70;
         int yCoord=(yCount*30)+yVal;
         
         newWeekDay++;
@@ -166,13 +170,6 @@ int thisMonth;//1-12
         
         [self.view addSubview:addProject];
     }
-    
-    
-    
-    //- (void)didReceiveMemoryWarning {
-    // [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-    //}
     
 }
 
