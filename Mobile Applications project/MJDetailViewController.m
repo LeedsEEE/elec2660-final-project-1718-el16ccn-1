@@ -8,6 +8,7 @@
 
 #import "MJDetailViewController.h"
 #import "ViewController.h"
+extern NSArray * pressedDate;
 
 @interface MJDetailViewController ()
 
@@ -16,10 +17,14 @@
 @implementation MJDetailViewController
 @synthesize popDate;
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    popDate.text=pressedDate[1];
+    _taskLabel.text=_taskTextLabel.text;
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -27,4 +32,10 @@
 }
 
 
+- (IBAction)addtaskbuttonPressed:(id)sender {
+}
+
+- (IBAction)donebuttonPressed:(id)sender {
+    _taskLabel.text=_taskTextLabel.text;
+}
 @end

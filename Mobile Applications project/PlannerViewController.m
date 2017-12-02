@@ -20,7 +20,7 @@ int weekday;//1-7 When does 1st day of month start
 int thisMonth;//1-12
 
 NSArray * createdAt;
-NSArray * pDate;
+NSArray * pressedDate;
 
 @implementation PlannerViewController
 @synthesize monthly;
@@ -168,6 +168,8 @@ NSArray * pDate;
         [addProject setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         addProject.tag = startD;
         
+    
+        
         [self.view addSubview:addProject];
     }
     
@@ -187,6 +189,7 @@ NSArray * pDate;
     NSDateFormatter * dateFormat = [[NSDateFormatter alloc] init];
     [dateFormat setDateFormat:@"yyyy-MM-dd"];
     
+    pressedDate=@[@"p",[dateFormat stringFromDate:newDate]];
     
     
     

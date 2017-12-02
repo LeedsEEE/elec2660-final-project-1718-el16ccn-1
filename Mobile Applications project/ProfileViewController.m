@@ -16,6 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _hometextField.hidden=true;
+    _workTextField.hidden=true;
+    _nameTextField.hidden=true;
+    _courseTextField.hidden=true;
+    _doneButton.hidden=true;
+    
+    
     // Do any additional setup after loading the view.
 }
 
@@ -34,4 +41,35 @@
 }
 */
 
+- (IBAction)editbuttonPressed:(id)sender {
+    self.hometextField.hidden=false;
+    self.workTextField.hidden=false;
+    self.nameTextField.hidden=false;
+    self.courseTextField.hidden=false;
+    self.editButton.hidden=true;
+    _doneButton.hidden=false;
+    self.viewmodulesButton.hidden=true;
+    self.settingsButton.hidden=true;
+}
+
+- (IBAction)viewmodulesbuttonPressed:(id)sender {
+}
+
+- (IBAction)donebuttonPressed:(id)sender {
+    self.nameLabel.text= _nameTextField.text;
+    self.courseLabel.text= _courseTextField.text;
+    self.homeLabel.text= _hometextField.text;
+    self.workLabel.text= _workTextField.text;
+    
+    self.hometextField.hidden=true;
+    self.workTextField.hidden=true;
+    self.nameTextField.hidden=true;
+    self.courseTextField.hidden=true;
+    
+    _doneButton.hidden=true;
+    _editButton.hidden=false;
+    self.viewmodulesButton.hidden=false;
+    self.settingsButton.hidden=false;
+    
+}
 @end

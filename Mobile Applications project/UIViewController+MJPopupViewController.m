@@ -25,9 +25,8 @@
 
 static NSString *MJPopupViewDismissedKey = @"MJPopupViewDismissed";
 
-////////////////////////////////////////////////////////////////////////////
-#pragma mark -
-#pragma mark Public
+
+#pragma mark
 
 @implementation UIViewController (MJPopupViewController)
 
@@ -35,6 +34,7 @@ static void * const keypath = (void*)&keypath;
 
 - (UIViewController*)mj_popupViewController {
     return objc_getAssociatedObject(self, kMJPopupViewController);
+    
 }
 
 - (void)setMj_popupViewController:(UIViewController *)mj_popupViewController {
@@ -88,9 +88,9 @@ static void * const keypath = (void*)&keypath;
 
 
 
-////////////////////////////////////////////////////////////////////////////
+
 #pragma mark -
-#pragma mark View Handling
+
 
 - (void)presentPopupView:(UIView*)popupView animationType:(MJPopupViewAnimation)animationType
 {

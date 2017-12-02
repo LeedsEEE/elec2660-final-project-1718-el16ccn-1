@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 extern NSArray * createdAt;
-extern NSArray * pDate;
+extern NSArray * pressedDate;
 
 
 @interface PlannerViewController : UIViewController
@@ -21,13 +21,6 @@ extern NSArray * pDate;
 
 @property (weak, nonatomic) IBOutlet UILabel * monthly;
 
-//@property (weak, nonatomic) IBOutlet UILabel * MON;
-//@property (weak, nonatomic) IBOutlet UILabel * TUE;
-//@property (weak, nonatomic) IBOutlet UILabel * WED;
-//@property (weak, nonatomic) IBOutlet UILabel * THU;
-//@property (weak, nonatomic) IBOutlet UILabel * FRI;
-//@property (weak, nonatomic) IBOutlet UILabel * SAT;
-//@property (weak, nonatomic) IBOutlet UILabel * SUN;
 
 
 @end

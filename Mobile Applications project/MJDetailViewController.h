@@ -14,6 +14,11 @@
 
 
 @property (weak, nonatomic) IBOutlet UILabel *popDate;
+- (IBAction)addtaskbuttonPressed:(id)sender;
+
+- (IBAction)donebuttonPressed:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *taskLabel;
+@property (weak, nonatomic) IBOutlet UITextField *taskTextLabel;
 
 
 
