@@ -22,7 +22,7 @@ extern NSArray * pressedDate;
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     popDate.text=pressedDate[1];
-    _taskLabel.text=_taskTextLabel.text;
+    
 }
 
 
@@ -33,9 +33,16 @@ extern NSArray * pressedDate;
 
 
 - (IBAction)addtaskbuttonPressed:(id)sender {
+    
+    //First save string
+    NSString *saveString = _taskTextLabel.text;
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:saveString forKey:@"saveString"];
+    [defaults synchronize];
+    
 }
 
 - (IBAction)donebuttonPressed:(id)sender {
-    _taskLabel.text=_taskTextLabel.text;
+    _taskTextLabel.text=_taskTextLabel.text;
 }
 @end

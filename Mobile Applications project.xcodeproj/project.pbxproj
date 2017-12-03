@@ -25,6 +25,8 @@
 		2F7993D11FCDB2D9005907D2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7993D01FCDB2D9005907D2 /* HomeViewController.m */; };
 		2F7993DD1FD20F79005907D2 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7993DC1FD20F79005907D2 /* SettingsViewController.m */; };
 		2F7993E01FD23E79005907D2 /* tableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7993DF1FD23E79005907D2 /* tableTableViewController.m */; };
+		2F7994241FD36095005907D2 /* modulesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7994231FD36095005907D2 /* modulesTableViewController.m */; };
+		2F79942A1FD3641F005907D2 /* modulesinfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7994291FD3641F005907D2 /* modulesinfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,10 @@
 		2F7993DC1FD20F79005907D2 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		2F7993DE1FD23E79005907D2 /* tableTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tableTableViewController.h; sourceTree = "<group>"; };
 		2F7993DF1FD23E79005907D2 /* tableTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableTableViewController.m; sourceTree = "<group>"; };
+		2F7994221FD36095005907D2 /* modulesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = modulesTableViewController.h; sourceTree = "<group>"; };
+		2F7994231FD36095005907D2 /* modulesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = modulesTableViewController.m; sourceTree = "<group>"; };
+		2F7994281FD3641F005907D2 /* modulesinfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = modulesinfoViewController.h; sourceTree = "<group>"; };
+		2F7994291FD3641F005907D2 /* modulesinfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = modulesinfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +145,10 @@
 				2F7993D01FCDB2D9005907D2 /* HomeViewController.m */,
 				2F7993DC1FD20F79005907D2 /* SettingsViewController.m */,
 				2F309CB11FC45F7300290F66 /* Main.storyboard */,
+				2F7994221FD36095005907D2 /* modulesTableViewController.h */,
+				2F7994231FD36095005907D2 /* modulesTableViewController.m */,
+				2F7994281FD3641F005907D2 /* modulesinfoViewController.h */,
+				2F7994291FD3641F005907D2 /* modulesinfoViewController.m */,
 				2F7993DE1FD23E79005907D2 /* tableTableViewController.h */,
 				2F7993DF1FD23E79005907D2 /* tableTableViewController.m */,
 				2F7993DB1FD20F78005907D2 /* SettingsViewController.h */,
@@ -316,12 +326,14 @@
 				2F309CB01FC45F7300290F66 /* ViewController.m in Sources */,
 				2F7993CE1FCDB1E8005907D2 /* PlannerViewController.m in Sources */,
 				2F7993E01FD23E79005907D2 /* tableTableViewController.m in Sources */,
+				2F7994241FD36095005907D2 /* modulesTableViewController.m in Sources */,
 				2F3F70111FCD9E850026FE3E /* UIViewController+MJPopupViewController.m in Sources */,
 				2F3F70131FCD9E850026FE3E /* MJDetailViewController.m in Sources */,
 				2F309CBB1FC45F7300290F66 /* main.m in Sources */,
 				2F7993D11FCDB2D9005907D2 /* HomeViewController.m in Sources */,
 				2F3F70161FCDB0150026FE3E /* ProfileViewController.m in Sources */,
 				2F7993DD1FD20F79005907D2 /* SettingsViewController.m in Sources */,
+				2F79942A1FD3641F005907D2 /* modulesinfoViewController.m in Sources */,
 				2F309CAD1FC45F7300290F66 /* AppDelegate.m in Sources */,
 				2F3F70121FCD9E850026FE3E /* MJPopupBackgroundView.m in Sources */,
 			);

@@ -10,7 +10,7 @@
 
 extern NSArray * createdAt;
 extern NSArray * pressedDate;
-
+extern NSString * test;
 
 @interface PlannerViewController : UIViewController
 

@@ -1,26 +1,21 @@
 //
-//  tableTableViewController.m
+//  modulesinfoTableViewController.m
 //  Mobile Applications project
 //
 //  Created by Chukwuebuka Nwibe on 02/12/2017.
 //  Copyright © 2017 Chukwuebuka Nwibe. All rights reserved.
 //
 
-#import "tableTableViewController.h"
+#import "modulesinfoTableViewController.h"
 
-@interface tableTableViewController ()
-{
-    NSArray *modules;
-}
+@interface modulesinfoTableViewController ()
+
 @end
-NSArray *modulesList;
 
-@implementation tableTableViewController
-
+@implementation modulesinfoTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    modules = @[@"home", @"house"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -38,23 +33,24 @@ NSArray *modulesList;
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 1;
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return modules.count;
+    return 0;
 }
 
-
+/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
     
-   
     // Configure the cell...
-     cell.textLabel.text=modules[indexPath.row];
+    
     return cell;
 }
+*/
+
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -99,6 +95,4 @@ NSArray *modulesList;
 }
 */
 
-- (IBAction)nametextviewcont:(id)sender {
-}
 @end

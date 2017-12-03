@@ -1,5 +1,5 @@
 //
-//  tableTableViewController.h
+//  modulesTableViewController.h
 //  Mobile Applications project
 //
 //  Created by Chukwuebuka Nwibe on 02/12/2017.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface tableTableViewController : UITableViewController
+@interface modulesTableViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 
-extern NSArray *modulesList;
+@property NSArray *array;
 
 @end
