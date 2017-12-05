@@ -25,6 +25,11 @@
 @property (weak, nonatomic) IBOutlet UIButton *doneButton;
 @property (weak, nonatomic) IBOutlet UIButton *viewmodulesButton;
 @property (weak, nonatomic) IBOutlet UIButton *settingsButton;
-
+@property (weak, nonatomic) IBOutlet UITextField *home2TextField;
+@property (weak, nonatomic) IBOutlet UITextField *work2TextField;
+@property (weak, nonatomic) IBOutlet UILabel *work2Label;
+@property (weak, nonatomic) IBOutlet UILabel *home2Label;
+- (IBAction)loadprofile:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *loadprofile;
 
 @end

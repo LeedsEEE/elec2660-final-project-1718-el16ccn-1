@@ -39,10 +39,20 @@ extern NSArray * pressedDate;
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setObject:saveString forKey:@"saveString"];
     [defaults synchronize];
+    _loaded.text = @"Data loaded successfully";
+    
     
 }
 
 - (IBAction)donebuttonPressed:(id)sender {
-    _taskTextLabel.text=_taskTextLabel.text;
+   // _taskLabel.text=_taskTextLabel.text;
+    
+    //first load string
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring = [defaults objectForKey:@"saveString"];
+    [_taskTextLabel setText:loadstring];
+    [_loaded setText:@"data loaded successfully"];
+    
+    
 }
 @end

@@ -27,6 +27,8 @@
 		2F7993E01FD23E79005907D2 /* tableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7993DF1FD23E79005907D2 /* tableTableViewController.m */; };
 		2F7994241FD36095005907D2 /* modulesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7994231FD36095005907D2 /* modulesTableViewController.m */; };
 		2F79942A1FD3641F005907D2 /* modulesinfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7994291FD3641F005907D2 /* modulesinfoViewController.m */; };
+		2F79946B1FD6EC68005907D2 /* ButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F79946A1FD6EC68005907D2 /* ButtonHandler.m */; };
+		2F79946E1FD6F825005907D2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F79946D1FD6F825005907D2 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,10 @@
 		2F7994231FD36095005907D2 /* modulesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = modulesTableViewController.m; sourceTree = "<group>"; };
 		2F7994281FD3641F005907D2 /* modulesinfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = modulesinfoViewController.h; sourceTree = "<group>"; };
 		2F7994291FD3641F005907D2 /* modulesinfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = modulesinfoViewController.m; sourceTree = "<group>"; };
+		2F7994691FD6EC66005907D2 /* ButtonHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonHandler.h; sourceTree = "<group>"; };
+		2F79946A1FD6EC68005907D2 /* ButtonHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonHandler.m; sourceTree = "<group>"; };
+		2F79946C1FD6F825005907D2 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2F79946D1FD6F825005907D2 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,8 @@
 				2F7993D01FCDB2D9005907D2 /* HomeViewController.m */,
 				2F7993DC1FD20F79005907D2 /* SettingsViewController.m */,
 				2F309CB11FC45F7300290F66 /* Main.storyboard */,
+				2F79946C1FD6F825005907D2 /* RootViewController.h */,
+				2F79946D1FD6F825005907D2 /* RootViewController.m */,
 				2F7994221FD36095005907D2 /* modulesTableViewController.h */,
 				2F7994231FD36095005907D2 /* modulesTableViewController.m */,
 				2F7994281FD3641F005907D2 /* modulesinfoViewController.h */,
@@ -154,6 +162,8 @@
 				2F7993DB1FD20F78005907D2 /* SettingsViewController.h */,
 				2F3F70141FCDB0150026FE3E /* ProfileViewController.h */,
 				2F3F70151FCDB0150026FE3E /* ProfileViewController.m */,
+				2F7994691FD6EC66005907D2 /* ButtonHandler.h */,
+				2F79946A1FD6EC68005907D2 /* ButtonHandler.m */,
 				2F3F700A1FCD9E820026FE3E /* MJDetailViewController.h */,
 				2F3F700E1FCD9E840026FE3E /* MJDetailViewController.m */,
 				2F3F700B1FCD9E820026FE3E /* MJDetailViewController.xib */,
@@ -329,6 +339,7 @@
 				2F7994241FD36095005907D2 /* modulesTableViewController.m in Sources */,
 				2F3F70111FCD9E850026FE3E /* UIViewController+MJPopupViewController.m in Sources */,
 				2F3F70131FCD9E850026FE3E /* MJDetailViewController.m in Sources */,
+				2F79946B1FD6EC68005907D2 /* ButtonHandler.m in Sources */,
 				2F309CBB1FC45F7300290F66 /* main.m in Sources */,
 				2F7993D11FCDB2D9005907D2 /* HomeViewController.m in Sources */,
 				2F3F70161FCDB0150026FE3E /* ProfileViewController.m in Sources */,
@@ -336,6 +347,7 @@
 				2F79942A1FD3641F005907D2 /* modulesinfoViewController.m in Sources */,
 				2F309CAD1FC45F7300290F66 /* AppDelegate.m in Sources */,
 				2F3F70121FCD9E850026FE3E /* MJPopupBackgroundView.m in Sources */,
+				2F79946E1FD6F825005907D2 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

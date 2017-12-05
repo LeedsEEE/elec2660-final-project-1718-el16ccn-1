@@ -20,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *taskLabel;
 @property (weak, nonatomic) IBOutlet UITextField *taskTextLabel;
 
+@property (weak, nonatomic) IBOutlet UILabel *loaded;
 
 
 
