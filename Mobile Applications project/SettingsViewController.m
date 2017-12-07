@@ -9,6 +9,12 @@
 #import "SettingsViewController.h"
 
 @interface SettingsViewController ()
+//create properties to hold raw nsdate information
+
+
+
+
+
 
 @end
 
@@ -34,4 +40,9 @@
 }
 */
 
+- (IBAction)didChangeDate:(UIDatePicker *)sender {
+}
+
+- (IBAction)calculate:(id)sender {
+}
 @end

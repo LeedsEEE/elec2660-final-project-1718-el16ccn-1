@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0946291FD7294F00B1C663 /* TasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0946281FD7294F00B1C663 /* TasksViewController.m */; };
 		2F309CAD1FC45F7300290F66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F309CAC1FC45F7300290F66 /* AppDelegate.m */; };
 		2F309CB01FC45F7300290F66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F309CAF1FC45F7300290F66 /* ViewController.m */; };
 		2F309CB31FC45F7300290F66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F309CB11FC45F7300290F66 /* Main.storyboard */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F0946271FD7294F00B1C663 /* TasksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TasksViewController.h; sourceTree = "<group>"; };
+		2F0946281FD7294F00B1C663 /* TasksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TasksViewController.m; sourceTree = "<group>"; };
 		2F309CA81FC45F7300290F66 /* Mobile Applications project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Applications project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F309CAB1FC45F7300290F66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2F309CAC1FC45F7300290F66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -145,12 +148,19 @@
 				2F309CAC1FC45F7300290F66 /* AppDelegate.m */,
 				2F309CAE1FC45F7300290F66 /* ViewController.h */,
 				2F309CAF1FC45F7300290F66 /* ViewController.m */,
-				2F7993CC1FCDB1E8005907D2 /* PlannerViewController.h */,
-				2F7993CD1FCDB1E8005907D2 /* PlannerViewController.m */,
 				2F7993CF1FCDB2D9005907D2 /* HomeViewController.h */,
 				2F7993D01FCDB2D9005907D2 /* HomeViewController.m */,
-				2F7993DC1FD20F79005907D2 /* SettingsViewController.m */,
+				2F7993CC1FCDB1E8005907D2 /* PlannerViewController.h */,
+				2F7993CD1FCDB1E8005907D2 /* PlannerViewController.m */,
+				2F3F70141FCDB0150026FE3E /* ProfileViewController.h */,
+				2F3F70151FCDB0150026FE3E /* ProfileViewController.m */,
 				2F309CB11FC45F7300290F66 /* Main.storyboard */,
+				2F0946281FD7294F00B1C663 /* TasksViewController.m */,
+				2F0946271FD7294F00B1C663 /* TasksViewController.h */,
+				2F7993DB1FD20F78005907D2 /* SettingsViewController.h */,
+				2F7993DC1FD20F79005907D2 /* SettingsViewController.m */,
+				2F7994691FD6EC66005907D2 /* ButtonHandler.h */,
+				2F79946A1FD6EC68005907D2 /* ButtonHandler.m */,
 				2F79946C1FD6F825005907D2 /* RootViewController.h */,
 				2F79946D1FD6F825005907D2 /* RootViewController.m */,
 				2F7994221FD36095005907D2 /* modulesTableViewController.h */,
@@ -159,11 +169,6 @@
 				2F7994291FD3641F005907D2 /* modulesinfoViewController.m */,
 				2F7993DE1FD23E79005907D2 /* tableTableViewController.h */,
 				2F7993DF1FD23E79005907D2 /* tableTableViewController.m */,
-				2F7993DB1FD20F78005907D2 /* SettingsViewController.h */,
-				2F3F70141FCDB0150026FE3E /* ProfileViewController.h */,
-				2F3F70151FCDB0150026FE3E /* ProfileViewController.m */,
-				2F7994691FD6EC66005907D2 /* ButtonHandler.h */,
-				2F79946A1FD6EC68005907D2 /* ButtonHandler.m */,
 				2F3F700A1FCD9E820026FE3E /* MJDetailViewController.h */,
 				2F3F700E1FCD9E840026FE3E /* MJDetailViewController.m */,
 				2F3F700B1FCD9E820026FE3E /* MJDetailViewController.xib */,
@@ -342,6 +347,7 @@
 				2F79946B1FD6EC68005907D2 /* ButtonHandler.m in Sources */,
 				2F309CBB1FC45F7300290F66 /* main.m in Sources */,
 				2F7993D11FCDB2D9005907D2 /* HomeViewController.m in Sources */,
+				2F0946291FD7294F00B1C663 /* TasksViewController.m in Sources */,
 				2F3F70161FCDB0150026FE3E /* ProfileViewController.m in Sources */,
 				2F7993DD1FD20F79005907D2 /* SettingsViewController.m in Sources */,
 				2F79942A1FD3641F005907D2 /* modulesinfoViewController.m in Sources */,
