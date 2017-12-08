@@ -30,6 +30,12 @@
 		2F79942A1FD3641F005907D2 /* modulesinfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7994291FD3641F005907D2 /* modulesinfoViewController.m */; };
 		2F79946B1FD6EC68005907D2 /* ButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F79946A1FD6EC68005907D2 /* ButtonHandler.m */; };
 		2F79946E1FD6F825005907D2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F79946D1FD6F825005907D2 /* RootViewController.m */; };
+		2F9EFF731FDA16C500B6E11A /* Webp.net-resizeimage-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF701FDA16B700B6E11A /* Webp.net-resizeimage-4.png */; };
+		2F9EFF741FDA16C500B6E11A /* Webp.net-resizeimage-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF711FDA16B800B6E11A /* Webp.net-resizeimage-5.png */; };
+		2F9EFF751FDA16C500B6E11A /* Webp.net-resizeimage-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF721FDA16BF00B6E11A /* Webp.net-resizeimage-6.png */; };
+		2F9EFF791FDA18F300B6E11A /* Webp.net-resizeimage-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF761FDA18D400B6E11A /* Webp.net-resizeimage-7.png */; };
+		2F9EFF7A1FDA18F300B6E11A /* Webp.net-resizeimage-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF771FDA18D500B6E11A /* Webp.net-resizeimage-5.png */; };
+		2F9EFF7B1FDA18F300B6E11A /* Webp.net-resizeimage-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF781FDA18EC00B6E11A /* Webp.net-resizeimage-6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +100,12 @@
 		2F79946A1FD6EC68005907D2 /* ButtonHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonHandler.m; sourceTree = "<group>"; };
 		2F79946C1FD6F825005907D2 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		2F79946D1FD6F825005907D2 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2F9EFF701FDA16B700B6E11A /* Webp.net-resizeimage-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage-4.png"; sourceTree = "<group>"; };
+		2F9EFF711FDA16B800B6E11A /* Webp.net-resizeimage-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage-5.png"; sourceTree = "<group>"; };
+		2F9EFF721FDA16BF00B6E11A /* Webp.net-resizeimage-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage-6.png"; sourceTree = "<group>"; };
+		2F9EFF761FDA18D400B6E11A /* Webp.net-resizeimage-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage-7.png"; sourceTree = "<group>"; };
+		2F9EFF771FDA18D500B6E11A /* Webp.net-resizeimage-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Webp.net-resizeimage-5.png"; path = "../../../../Downloads/Webp.net-resizeimage-5.png"; sourceTree = "<group>"; };
+		2F9EFF781FDA18EC00B6E11A /* Webp.net-resizeimage-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Webp.net-resizeimage-6.png"; path = "../../../../Downloads/Webp.net-resizeimage-6.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +188,13 @@
 				2F3F700D1FCD9E830026FE3E /* MJPopupBackgroundView.m */,
 				2F3F70091FCD9E810026FE3E /* UIViewController+MJPopupViewController.h */,
 				2F3F700C1FCD9E830026FE3E /* UIViewController+MJPopupViewController.m */,
+				2F9EFF701FDA16B700B6E11A /* Webp.net-resizeimage-4.png */,
+				2F9EFF711FDA16B800B6E11A /* Webp.net-resizeimage-5.png */,
+				2F9EFF721FDA16BF00B6E11A /* Webp.net-resizeimage-6.png */,
 				2F309CB41FC45F7300290F66 /* Assets.xcassets */,
+				2F9EFF771FDA18D500B6E11A /* Webp.net-resizeimage-5.png */,
+				2F9EFF781FDA18EC00B6E11A /* Webp.net-resizeimage-6.png */,
+				2F9EFF761FDA18D400B6E11A /* Webp.net-resizeimage-7.png */,
 				2F4100DA1FC6D17D00DB7463 /* Tab Icons */,
 				2F309CB61FC45F7300290F66 /* LaunchScreen.storyboard */,
 				2F309CB91FC45F7300290F66 /* Info.plist */,
@@ -309,9 +327,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F9EFF791FDA18F300B6E11A /* Webp.net-resizeimage-7.png in Resources */,
 				2F4100DB1FC6D17D00DB7463 /* Tab Icons in Resources */,
+				2F9EFF7A1FDA18F300B6E11A /* Webp.net-resizeimage-5.png in Resources */,
 				2F3F70101FCD9E850026FE3E /* MJDetailViewController.xib in Resources */,
 				2F309CB81FC45F7300290F66 /* LaunchScreen.storyboard in Resources */,
+				2F9EFF731FDA16C500B6E11A /* Webp.net-resizeimage-4.png in Resources */,
+				2F9EFF741FDA16C500B6E11A /* Webp.net-resizeimage-5.png in Resources */,
+				2F9EFF7B1FDA18F300B6E11A /* Webp.net-resizeimage-6.png in Resources */,
+				2F9EFF751FDA16C500B6E11A /* Webp.net-resizeimage-6.png in Resources */,
 				2F309CB51FC45F7300290F66 /* Assets.xcassets in Resources */,
 				2F309CB31FC45F7300290F66 /* Main.storyboard in Resources */,
 			);

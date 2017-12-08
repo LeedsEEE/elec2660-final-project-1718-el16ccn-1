@@ -10,4 +10,14 @@
 
 @interface HomeViewController : UIViewController
 
+- (IBAction)addPressed:(id)sender;
+- (IBAction)deletePressed:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *deadlines1textfield;
+
+@property (weak, nonatomic) IBOutlet UITextField *deadlines2textfield;
+
+@property (weak, nonatomic) IBOutlet UITextField *deadlines3textfield;
+
+@property (weak, nonatomic) IBOutlet UITextView *textView;
+
 @end

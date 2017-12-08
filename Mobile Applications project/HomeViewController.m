@@ -16,6 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _deadlines2textfield.hidden = true;
+    _deadlines3textfield.hidden = true;
+    _deadlines1textfield.hidden = false;
     // Do any additional setup after loading the view.
 }
 
@@ -34,4 +37,13 @@
 }
 */
 
+- (IBAction)addPressed:(id)sender {
+    if (_deadlines2textfield.hidden==true) {
+        _deadlines2textfield.hidden=false;
+    }
+    _textView.text = _deadlines1textfield.text;
+}
+
+- (IBAction)deletePressed:(id)sender {
+}
 @end
