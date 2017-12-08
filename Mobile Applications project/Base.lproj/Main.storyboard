@@ -519,8 +519,8 @@
                                     <constraint firstAttribute="height" constant="30" id="GLG-ce-xIy"/>
                                     <constraint firstAttribute="width" constant="46" id="pzB-CH-cJG"/>
                                 </constraints>
-                                <state key="normal" title="Done">
-                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="04b-ai-yEL" kind="presentation" id="hL7-Mg-Unb"/>
@@ -533,6 +533,9 @@
                                     <constraint firstAttribute="width" constant="46" id="KXc-Af-v5E"/>
                                 </constraints>
                                 <state key="normal" title="Load"/>
+                                <connections>
+                                    <action selector="loadmodulesButtonpressed:" destination="pQQ-6Y-90D" eventType="touchUpInside" id="GlB-tl-2gf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
@@ -605,6 +608,7 @@
                     <connections>
                         <outlet property="doneeditingButton" destination="cG6-Up-S3P" id="Ngo-uy-mi0"/>
                         <outlet property="editButton" destination="IZY-tY-Daj" id="0SE-D0-jTG"/>
+                        <outlet property="loadButton" destination="5wk-75-esO" id="ADJ-EV-c2f"/>
                         <outlet property="module1assessmentLabel" destination="QoJ-Rb-GOq" id="jLt-GJ-GyQ"/>
                         <outlet property="module1assessmentTextView" destination="6Cr-dl-nQW" id="S8J-PV-fXM"/>
                         <outlet property="module1codeTextField" destination="2A2-ej-a17" id="vD3-K8-yeI"/>

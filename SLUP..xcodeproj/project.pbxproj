@@ -30,9 +30,9 @@
 		2F79942A1FD3641F005907D2 /* modulesinfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7994291FD3641F005907D2 /* modulesinfoViewController.m */; };
 		2F79946B1FD6EC68005907D2 /* ButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F79946A1FD6EC68005907D2 /* ButtonHandler.m */; };
 		2F79946E1FD6F825005907D2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F79946D1FD6F825005907D2 /* RootViewController.m */; };
-		2F9EFF731FDA16C500B6E11A /* Webp.net-resizeimage-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF701FDA16B700B6E11A /* Webp.net-resizeimage-4.png */; };
-		2F9EFF741FDA16C500B6E11A /* Webp.net-resizeimage-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF711FDA16B800B6E11A /* Webp.net-resizeimage-5.png */; };
-		2F9EFF751FDA16C500B6E11A /* Webp.net-resizeimage-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF721FDA16BF00B6E11A /* Webp.net-resizeimage-6.png */; };
+		2F9EFF731FDA16C500B6E11A /* todolist1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF701FDA16B700B6E11A /* todolist1x.png */; };
+		2F9EFF741FDA16C500B6E11A /* todolist2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF711FDA16B800B6E11A /* todolist2x.png */; };
+		2F9EFF751FDA16C500B6E11A /* todolist3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF721FDA16BF00B6E11A /* todolist3x.png */; };
 		2F9EFF791FDA18F300B6E11A /* Webp.net-resizeimage-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF761FDA18D400B6E11A /* Webp.net-resizeimage-7.png */; };
 		2F9EFF7A1FDA18F300B6E11A /* Webp.net-resizeimage-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF771FDA18D500B6E11A /* Webp.net-resizeimage-5.png */; };
 		2F9EFF7B1FDA18F300B6E11A /* Webp.net-resizeimage-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF781FDA18EC00B6E11A /* Webp.net-resizeimage-6.png */; };
@@ -59,7 +59,7 @@
 /* Begin PBXFileReference section */
 		2F0946271FD7294F00B1C663 /* TasksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TasksViewController.h; sourceTree = "<group>"; };
 		2F0946281FD7294F00B1C663 /* TasksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TasksViewController.m; sourceTree = "<group>"; };
-		2F309CA81FC45F7300290F66 /* Mobile Applications project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Applications project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F309CA81FC45F7300290F66 /* SLUP..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLUP..app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F309CAB1FC45F7300290F66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2F309CAC1FC45F7300290F66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2F309CAE1FC45F7300290F66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -69,10 +69,10 @@
 		2F309CB71FC45F7300290F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F309CB91FC45F7300290F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F309CBA1FC45F7300290F66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F309CC01FC45F7300290F66 /* Mobile Applications projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile Applications projectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F309CC01FC45F7300290F66 /* SLUP.Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLUP.Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F309CC41FC45F7300290F66 /* Mobile_Applications_projectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mobile_Applications_projectTests.m; sourceTree = "<group>"; };
 		2F309CC61FC45F7300290F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F309CCB1FC45F7300290F66 /* Mobile Applications projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile Applications projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F309CCB1FC45F7300290F66 /* SLUP.UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLUP.UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F309CCF1FC45F7300290F66 /* Mobile_Applications_projectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mobile_Applications_projectUITests.m; sourceTree = "<group>"; };
 		2F309CD11FC45F7300290F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F3F70091FCD9E810026FE3E /* UIViewController+MJPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJPopupViewController.h"; sourceTree = "<group>"; };
@@ -101,9 +101,9 @@
 		2F79946A1FD6EC68005907D2 /* ButtonHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonHandler.m; sourceTree = "<group>"; };
 		2F79946C1FD6F825005907D2 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		2F79946D1FD6F825005907D2 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		2F9EFF701FDA16B700B6E11A /* Webp.net-resizeimage-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage-4.png"; sourceTree = "<group>"; };
-		2F9EFF711FDA16B800B6E11A /* Webp.net-resizeimage-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage-5.png"; sourceTree = "<group>"; };
-		2F9EFF721FDA16BF00B6E11A /* Webp.net-resizeimage-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage-6.png"; sourceTree = "<group>"; };
+		2F9EFF701FDA16B700B6E11A /* todolist1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = todolist1x.png; sourceTree = "<group>"; };
+		2F9EFF711FDA16B800B6E11A /* todolist2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = todolist2x.png; sourceTree = "<group>"; };
+		2F9EFF721FDA16BF00B6E11A /* todolist3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = todolist3x.png; sourceTree = "<group>"; };
 		2F9EFF761FDA18D400B6E11A /* Webp.net-resizeimage-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage-7.png"; sourceTree = "<group>"; };
 		2F9EFF771FDA18D500B6E11A /* Webp.net-resizeimage-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Webp.net-resizeimage-5.png"; path = "../../../../Downloads/Webp.net-resizeimage-5.png"; sourceTree = "<group>"; };
 		2F9EFF781FDA18EC00B6E11A /* Webp.net-resizeimage-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Webp.net-resizeimage-6.png"; path = "../../../../Downloads/Webp.net-resizeimage-6.png"; sourceTree = "<group>"; };
@@ -149,9 +149,9 @@
 		2F309CA91FC45F7300290F66 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F309CA81FC45F7300290F66 /* Mobile Applications project.app */,
-				2F309CC01FC45F7300290F66 /* Mobile Applications projectTests.xctest */,
-				2F309CCB1FC45F7300290F66 /* Mobile Applications projectUITests.xctest */,
+				2F309CA81FC45F7300290F66 /* SLUP..app */,
+				2F309CC01FC45F7300290F66 /* SLUP.Tests.xctest */,
+				2F309CCB1FC45F7300290F66 /* SLUP.UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,8 +170,8 @@
 				2F3F70141FCDB0150026FE3E /* ProfileViewController.h */,
 				2F3F70151FCDB0150026FE3E /* ProfileViewController.m */,
 				2F309CB11FC45F7300290F66 /* Main.storyboard */,
-				2FCA6E0F1FDAD218000D5858 /* modulesbuttonViewController.h */,
 				2FCA6E101FDAD218000D5858 /* modulesbuttonViewController.m */,
+				2FCA6E0F1FDAD218000D5858 /* modulesbuttonViewController.h */,
 				2F0946281FD7294F00B1C663 /* TasksViewController.m */,
 				2F0946271FD7294F00B1C663 /* TasksViewController.h */,
 				2F7993DB1FD20F78005907D2 /* SettingsViewController.h */,
@@ -193,9 +193,9 @@
 				2F3F700D1FCD9E830026FE3E /* MJPopupBackgroundView.m */,
 				2F3F70091FCD9E810026FE3E /* UIViewController+MJPopupViewController.h */,
 				2F3F700C1FCD9E830026FE3E /* UIViewController+MJPopupViewController.m */,
-				2F9EFF701FDA16B700B6E11A /* Webp.net-resizeimage-4.png */,
-				2F9EFF711FDA16B800B6E11A /* Webp.net-resizeimage-5.png */,
-				2F9EFF721FDA16BF00B6E11A /* Webp.net-resizeimage-6.png */,
+				2F9EFF701FDA16B700B6E11A /* todolist1x.png */,
+				2F9EFF711FDA16B800B6E11A /* todolist2x.png */,
+				2F9EFF721FDA16BF00B6E11A /* todolist3x.png */,
 				2F309CB41FC45F7300290F66 /* Assets.xcassets */,
 				2F9EFF771FDA18D500B6E11A /* Webp.net-resizeimage-5.png */,
 				2F9EFF781FDA18EC00B6E11A /* Webp.net-resizeimage-6.png */,
@@ -229,9 +229,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2F309CA71FC45F7300290F66 /* Mobile Applications project */ = {
+		2F309CA71FC45F7300290F66 /* SLUP. */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F309CD41FC45F7300290F66 /* Build configuration list for PBXNativeTarget "Mobile Applications project" */;
+			buildConfigurationList = 2F309CD41FC45F7300290F66 /* Build configuration list for PBXNativeTarget "SLUP." */;
 			buildPhases = (
 				2F309CA41FC45F7300290F66 /* Sources */,
 				2F309CA51FC45F7300290F66 /* Frameworks */,
@@ -241,14 +241,14 @@
 			);
 			dependencies = (
 			);
-			name = "Mobile Applications project";
+			name = SLUP.;
 			productName = "Mobile Applications project";
-			productReference = 2F309CA81FC45F7300290F66 /* Mobile Applications project.app */;
+			productReference = 2F309CA81FC45F7300290F66 /* SLUP..app */;
 			productType = "com.apple.product-type.application";
 		};
-		2F309CBF1FC45F7300290F66 /* Mobile Applications projectTests */ = {
+		2F309CBF1FC45F7300290F66 /* SLUP.Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F309CD71FC45F7300290F66 /* Build configuration list for PBXNativeTarget "Mobile Applications projectTests" */;
+			buildConfigurationList = 2F309CD71FC45F7300290F66 /* Build configuration list for PBXNativeTarget "SLUP.Tests" */;
 			buildPhases = (
 				2F309CBC1FC45F7300290F66 /* Sources */,
 				2F309CBD1FC45F7300290F66 /* Frameworks */,
@@ -259,14 +259,14 @@
 			dependencies = (
 				2F309CC21FC45F7300290F66 /* PBXTargetDependency */,
 			);
-			name = "Mobile Applications projectTests";
+			name = SLUP.Tests;
 			productName = "Mobile Applications projectTests";
-			productReference = 2F309CC01FC45F7300290F66 /* Mobile Applications projectTests.xctest */;
+			productReference = 2F309CC01FC45F7300290F66 /* SLUP.Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2F309CCA1FC45F7300290F66 /* Mobile Applications projectUITests */ = {
+		2F309CCA1FC45F7300290F66 /* SLUP.UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F309CDA1FC45F7300290F66 /* Build configuration list for PBXNativeTarget "Mobile Applications projectUITests" */;
+			buildConfigurationList = 2F309CDA1FC45F7300290F66 /* Build configuration list for PBXNativeTarget "SLUP.UITests" */;
 			buildPhases = (
 				2F309CC71FC45F7300290F66 /* Sources */,
 				2F309CC81FC45F7300290F66 /* Frameworks */,
@@ -277,9 +277,9 @@
 			dependencies = (
 				2F309CCD1FC45F7300290F66 /* PBXTargetDependency */,
 			);
-			name = "Mobile Applications projectUITests";
+			name = SLUP.UITests;
 			productName = "Mobile Applications projectUITests";
-			productReference = 2F309CCB1FC45F7300290F66 /* Mobile Applications projectUITests.xctest */;
+			productReference = 2F309CCB1FC45F7300290F66 /* SLUP.UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2F309CA31FC45F7300290F66 /* Build configuration list for PBXProject "Mobile Applications project" */;
+			buildConfigurationList = 2F309CA31FC45F7300290F66 /* Build configuration list for PBXProject "SLUP." */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,9 +320,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2F309CA71FC45F7300290F66 /* Mobile Applications project */,
-				2F309CBF1FC45F7300290F66 /* Mobile Applications projectTests */,
-				2F309CCA1FC45F7300290F66 /* Mobile Applications projectUITests */,
+				2F309CA71FC45F7300290F66 /* SLUP. */,
+				2F309CBF1FC45F7300290F66 /* SLUP.Tests */,
+				2F309CCA1FC45F7300290F66 /* SLUP.UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -337,10 +337,10 @@
 				2F9EFF7A1FDA18F300B6E11A /* Webp.net-resizeimage-5.png in Resources */,
 				2F3F70101FCD9E850026FE3E /* MJDetailViewController.xib in Resources */,
 				2F309CB81FC45F7300290F66 /* LaunchScreen.storyboard in Resources */,
-				2F9EFF731FDA16C500B6E11A /* Webp.net-resizeimage-4.png in Resources */,
-				2F9EFF741FDA16C500B6E11A /* Webp.net-resizeimage-5.png in Resources */,
+				2F9EFF731FDA16C500B6E11A /* todolist1x.png in Resources */,
+				2F9EFF741FDA16C500B6E11A /* todolist2x.png in Resources */,
 				2F9EFF7B1FDA18F300B6E11A /* Webp.net-resizeimage-6.png in Resources */,
-				2F9EFF751FDA16C500B6E11A /* Webp.net-resizeimage-6.png in Resources */,
+				2F9EFF751FDA16C500B6E11A /* todolist3x.png in Resources */,
 				2F309CB51FC45F7300290F66 /* Assets.xcassets in Resources */,
 				2F309CB31FC45F7300290F66 /* Main.storyboard in Resources */,
 			);
@@ -408,12 +408,12 @@
 /* Begin PBXTargetDependency section */
 		2F309CC21FC45F7300290F66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2F309CA71FC45F7300290F66 /* Mobile Applications project */;
+			target = 2F309CA71FC45F7300290F66 /* SLUP. */;
 			targetProxy = 2F309CC11FC45F7300290F66 /* PBXContainerItemProxy */;
 		};
 		2F309CCD1FC45F7300290F66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2F309CA71FC45F7300290F66 /* Mobile Applications project */;
+			target = 2F309CA71FC45F7300290F66 /* SLUP. */;
 			targetProxy = 2F309CCC1FC45F7300290F66 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -581,7 +581,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.Mobile-Applications-projectTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile Applications project.app/Mobile Applications project";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLUP..app/SLUP.";
 			};
 			name = Debug;
 		};
@@ -596,7 +596,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.Mobile-Applications-projectTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile Applications project.app/Mobile Applications project";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLUP..app/SLUP.";
 			};
 			name = Release;
 		};
@@ -631,7 +631,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F309CA31FC45F7300290F66 /* Build configuration list for PBXProject "Mobile Applications project" */ = {
+		2F309CA31FC45F7300290F66 /* Build configuration list for PBXProject "SLUP." */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F309CD21FC45F7300290F66 /* Debug */,
@@ -640,7 +640,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F309CD41FC45F7300290F66 /* Build configuration list for PBXNativeTarget "Mobile Applications project" */ = {
+		2F309CD41FC45F7300290F66 /* Build configuration list for PBXNativeTarget "SLUP." */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F309CD51FC45F7300290F66 /* Debug */,
@@ -649,7 +649,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F309CD71FC45F7300290F66 /* Build configuration list for PBXNativeTarget "Mobile Applications projectTests" */ = {
+		2F309CD71FC45F7300290F66 /* Build configuration list for PBXNativeTarget "SLUP.Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F309CD81FC45F7300290F66 /* Debug */,
@@ -658,7 +658,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F309CDA1FC45F7300290F66 /* Build configuration list for PBXNativeTarget "Mobile Applications projectUITests" */ = {
+		2F309CDA1FC45F7300290F66 /* Build configuration list for PBXNativeTarget "SLUP.UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F309CDB1FC45F7300290F66 /* Debug */,

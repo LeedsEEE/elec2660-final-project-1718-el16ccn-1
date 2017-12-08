@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _doneeditingButton.hidden= true;
-    
+    _loadButton.hidden=false;
+    _editButton.hidden=false;
     
     _module1nameTextfield.enabled=false;
     _module1codeTextField.enabled=false;
@@ -58,7 +59,7 @@
 
 - (IBAction)viewaddbuttonPressed:(id)sender {
     
-    
+    _loadButton.hidden=true;
     _module1nameTextfield.enabled=true;
     _module1codeTextField.enabled=true;
     _module1creditsTextField.enabled=true;
@@ -174,6 +175,7 @@
 - (IBAction)doneeditingButtonPressed:(id)sender {
     _doneeditingButton.hidden=true;
     _editButton.hidden=false;
+    _loadButton.hidden=false;
     
     _module1assessmentLabel.text=@"Assessment Info";
     _module2assessmentLabel.text=@"Assessment Info";
@@ -290,6 +292,92 @@
     NSUserDefaults *defaults15 = [NSUserDefaults standardUserDefaults];
     [defaults15 setObject:modulessaveString15 forKey:@"modulessaveString15"];
     [defaults15 synchronize];
+    
+}
+- (IBAction)loadmodulesButtonpressed:(id)sender {
+    
+    //first load string
+    
+    NSUserDefaults *defaults1 = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring1 = [defaults1 objectForKey:@"modulessaveString1"];
+    [_module1nameTextfield setText:loadstring1];
+    
+    
+    //second load string
+    NSUserDefaults *defaults2 = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring2 = [defaults2 objectForKey:@"modulessaveString2"];
+    [_module1codeTextField setText:loadstring2];
+    
+    //third load string
+    NSUserDefaults *defaults3 = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring3 = [defaults3 objectForKey:@"modulessaveString3"];
+    [_module1creditsTextField setText:loadstring3];
+    
+    //fourth load string
+    NSUserDefaults *defaults4 = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring4 = [defaults4 objectForKey:@"modulessaveString4"];
+    [_module1assessmentTextView setText:loadstring4];
+    
+    //fifth load string
+    NSUserDefaults *defaults5 = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring5 = [defaults5 objectForKey:@"modulessaveString5"];
+    [_modulelecturerTextField setText:loadstring5];
+    
+    //sixth load string
+    NSUserDefaults *defaults6 = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring6 = [defaults6 objectForKey:@"modulessaveString6"];
+    [_module2nameTextfield setText:loadstring6];
+    
+    
+    //7 load string
+    
+    NSUserDefaults *defaults7 = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring7 = [defaults7 objectForKey:@"modulessaveString7"];
+    [_module2codeTextField setText:loadstring7];
+    
+    
+    //8 load string
+    NSUserDefaults *defaults8 = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring8 = [defaults8 objectForKey:@"modulessaveString8"];
+    [_module2creditsTextField setText:loadstring8];
+    
+    //9 load string
+    NSUserDefaults *defaults9 = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring9 = [defaults9 objectForKey:@"modulessaveString9"];
+    [_module2assessmentTextView setText:loadstring9];
+    
+    //10 load string
+    NSUserDefaults *defaults10 = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring10 = [defaults10 objectForKey:@"modulessaveString10"];
+    [_module2lecturerTextField setText:loadstring10];
+    
+    //11 load string
+    NSUserDefaults *defaults11 = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring11 = [defaults11 objectForKey:@"modulessaveString11"];
+    [_module3nameTextfield setText:loadstring11];
+    
+    //12 load string
+    NSUserDefaults *defaults12 = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring12 = [defaults12 objectForKey:@"modulessaveString12"];
+    [_module3codeTextField setText:loadstring12];
+    
+    
+    //13 load string
+    
+    NSUserDefaults *defaults13 = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring13 = [defaults13 objectForKey:@"modulessaveString13"];
+    [_module3creditsTextField setText:loadstring13];
+    
+    
+    //14 load string
+    NSUserDefaults *defaults14 = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring14 = [defaults14 objectForKey:@"modulessaveString14"];
+    [_module3assessmentTextView setText:loadstring14];
+    
+    //15 load string
+    NSUserDefaults *defaults15 = [NSUserDefaults standardUserDefaults];
+    NSString *loadstring15 = [defaults15 objectForKey:@"modulessaveString15"];
+    [_module3lecturerTextField setText:loadstring15];
     
 }
 @end

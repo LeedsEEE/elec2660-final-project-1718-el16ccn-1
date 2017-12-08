@@ -24,6 +24,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *modulelecturerTextField;
 
 
+- (IBAction)loadmodulesButtonpressed:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *loadButton;
 
 
 
