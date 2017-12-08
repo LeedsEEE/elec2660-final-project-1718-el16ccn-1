@@ -29,6 +29,7 @@
     self.home2Label.text=_home2TextField.text;
     self.work2Label.text=_work2TextField.text;
     self.workLabel.text= _workTextField.text;
+    _viewmodulesButton.hidden=true;
     
     
     // Do any additional setup after loading the view.
@@ -159,7 +160,7 @@
     
     _doneButton.hidden=true;
     _editButton.hidden=false;
-    self.viewmodulesButton.hidden=false;
+    self.viewmodulesButton.hidden=true;
     self.settingsButton.hidden=false;
     _loadprofile.hidden=false;
     
