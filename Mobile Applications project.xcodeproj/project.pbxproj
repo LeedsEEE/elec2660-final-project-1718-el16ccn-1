@@ -36,6 +36,7 @@
 		2F9EFF791FDA18F300B6E11A /* Webp.net-resizeimage-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF761FDA18D400B6E11A /* Webp.net-resizeimage-7.png */; };
 		2F9EFF7A1FDA18F300B6E11A /* Webp.net-resizeimage-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF771FDA18D500B6E11A /* Webp.net-resizeimage-5.png */; };
 		2F9EFF7B1FDA18F300B6E11A /* Webp.net-resizeimage-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EFF781FDA18EC00B6E11A /* Webp.net-resizeimage-6.png */; };
+		2FCA6E111FDAD218000D5858 /* modulesbuttonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCA6E101FDAD218000D5858 /* modulesbuttonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,8 @@
 		2F9EFF761FDA18D400B6E11A /* Webp.net-resizeimage-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage-7.png"; sourceTree = "<group>"; };
 		2F9EFF771FDA18D500B6E11A /* Webp.net-resizeimage-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Webp.net-resizeimage-5.png"; path = "../../../../Downloads/Webp.net-resizeimage-5.png"; sourceTree = "<group>"; };
 		2F9EFF781FDA18EC00B6E11A /* Webp.net-resizeimage-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Webp.net-resizeimage-6.png"; path = "../../../../Downloads/Webp.net-resizeimage-6.png"; sourceTree = "<group>"; };
+		2FCA6E0F1FDAD218000D5858 /* modulesbuttonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = modulesbuttonViewController.h; sourceTree = "<group>"; };
+		2FCA6E101FDAD218000D5858 /* modulesbuttonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = modulesbuttonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +170,8 @@
 				2F3F70141FCDB0150026FE3E /* ProfileViewController.h */,
 				2F3F70151FCDB0150026FE3E /* ProfileViewController.m */,
 				2F309CB11FC45F7300290F66 /* Main.storyboard */,
+				2FCA6E0F1FDAD218000D5858 /* modulesbuttonViewController.h */,
+				2FCA6E101FDAD218000D5858 /* modulesbuttonViewController.m */,
 				2F0946281FD7294F00B1C663 /* TasksViewController.m */,
 				2F0946271FD7294F00B1C663 /* TasksViewController.h */,
 				2F7993DB1FD20F78005907D2 /* SettingsViewController.h */,
@@ -378,6 +383,7 @@
 				2F309CAD1FC45F7300290F66 /* AppDelegate.m in Sources */,
 				2F3F70121FCD9E850026FE3E /* MJPopupBackgroundView.m in Sources */,
 				2F79946E1FD6F825005907D2 /* RootViewController.m in Sources */,
+				2FCA6E111FDAD218000D5858 /* modulesbuttonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
